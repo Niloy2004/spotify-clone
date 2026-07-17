@@ -1,49 +1,60 @@
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=for-the-badge)
+
 # 🎵 Spotify Clone
 
-A responsive Spotify Web Player Clone built using **HTML5** and **CSS3**. This project recreates the modern Spotify web interface with a clean layout, sidebar navigation, music player, playlists, and responsive design.
+<p align="center">
+  <h3 align="center">A Responsive Spotify Web Player Clone built with HTML & CSS</h3>
+
+  <p align="center">
+    A modern Spotify-inspired user interface created to practice responsive web design, Flexbox layouts, and clean frontend development.
+  </p>
+</p>
 
 ---
 
-## 🚀 Live Demo
+## 🌐 Live Demo
 
-🔗 https://netflix-phi-gilt.vercel.app/
-
-> **Note:** This project is created only for educational and practice purposes. It is not affiliated with Spotify.
+🔗 https://spotify-clone-three-rose-17.vercel.app/
 
 ---
 
 ## 📸 Preview
 
-<img width="100%" alt="Spotify Clone Screenshot" src="https://via.placeholder.com/1200x650?text=Spotify+Clone+Preview">
+> **Open the Live Demo to see the complete UI.**
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 🎵 Spotify-inspired UI
-- 📱 Responsive Design
+- 🎵 Spotify Inspired User Interface
+- 🎨 Modern Dark Theme
+- 📱 Responsive Layout
 - 📂 Sidebar Navigation
-- 🎧 Music Player Layout
-- 📀 Album Cards
+- 🎧 Bottom Music Player
+- 💿 Playlist Cards
 - 📚 Library Section
 - 📌 Sticky Navigation Bar
-- 🎨 Modern Dark Theme
-- 💻 Built using pure HTML & CSS
-- ⚡ Clean and Beginner-Friendly Code
+- 🖼️ Album Cover Display
+- 🎼 Music Controls UI
+- ⚡ Smooth Hover Effects
+- 💻 Clean & Organized Code
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Built With
 
 - HTML5
 - CSS3
 - Flexbox
 - Google Fonts
-- Font Awesome Icons
+- Font Awesome
 
 ---
 
-## 📂 Folder Structure
+# 📁 Project Structure
 
 ```
 Spotify-Clone/
@@ -51,6 +62,7 @@ Spotify-Clone/
 ├── assets/
 │   ├── images
 │   ├── icons
+│   └── music assets
 │
 ├── index.html
 ├── style.css
@@ -59,66 +71,94 @@ Spotify-Clone/
 
 ---
 
-## 🎯 What I Learned
+# 🚀 Getting Started
 
-While building this project, I learned:
+### Clone Repository
 
-- Semantic HTML
+```bash
+git clone https://github.com/yourusername/spotify-clone.git
+```
+
+### Open Project
+
+Simply open **index.html** in your browser.
+
+No installation required.
+
+---
+
+# 📱 Responsive Design
+
+✔ Desktop
+
+✔ Laptop
+
+✔ Tablet
+
+✔ Mobile (Basic Support)
+
+---
+
+# 📚 What I Learned
+
+This project helped me improve my skills in:
+
+- HTML Structure
 - CSS Flexbox
-- Responsive Web Design
-- Position Sticky
-- Card Layout Design
+- Responsive Design
+- Layout Planning
+- Sticky Navigation
 - Music Player UI
-- Sidebar Navigation
-- Modern UI Styling
-- CSS Hover Effects
-- Layout Structuring
+- Card Components
+- Sidebar Design
+- CSS Positioning
+- Modern UI Development
 
 ---
 
-## 📱 Responsive
+# 🚧 Future Improvements
 
-- Desktop ✅
-- Laptop ✅
-- Tablet ✅
-- Mobile (Basic Support)
-
----
-
-## 🚧 Future Improvements
-
-- Add JavaScript functionality
-- Music Playback
+- JavaScript Functionality
+- Play/Pause Controls
 - Search Feature
-- Dynamic Playlist
-- Authentication
-- API Integration
+- Playlist Management
+- Responsive Mobile Menu
 - Theme Toggle
-- Better Mobile Optimization
+- API Integration
+- Dynamic Music Data
 
 ---
 
-## 👨‍💻 Author
+# 🎯 Purpose
 
-**Niloy Goswami**
-
-GitHub:
-https://github.com/Niloy2004
-
-LinkedIn:
-(Add your LinkedIn Profile)
+This project was built for learning and practicing frontend web development by recreating the Spotify web interface using only HTML and CSS.
 
 ---
 
-## ⭐ Support
+# 👨‍💻 Author
 
-If you like this project, don't forget to give it a ⭐ on GitHub.
+## Niloy Goswami
 
-It motivates me to build more awesome projects!
+💼 Frontend Developer
+
+🌐 GitHub: https://github.com/Niloy2004
 
 ---
 
-## 📜 License
+# ⭐ Show Your Support
 
-This project is developed for learning purposes only.
-All trademarks and copyrights belong to Spotify.
+If you like this project,
+
+⭐ Star this repository
+
+🍴 Fork it
+
+🛠️ Give your valuable feedback
+
+---
+
+# 📄 License
+
+This project is created for **educational and learning purposes only.**
+
+It is **not affiliated with or endorsed by Spotify**. All trademarks belong to their respective owners.
