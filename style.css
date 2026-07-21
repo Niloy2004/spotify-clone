@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100px;
-    padding: 0.5 0.75rem;
+    padding: 0.5rem 0.75rem;
 }
 
 /*side nav*/
@@ -140,7 +140,7 @@ body {
     border-radius: 1rem;
     /*16px bydefult*/
     overflow: auto;
-    padding: 0 1.5rem 0 1.5rem;
+    padding: 0 1.5rem 6rem 1.5rem;
 }
 
 .music-player {
@@ -168,7 +168,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem 0 1rem 0;
+    padding: 1rem 0;
     z-index: 10;
 }
 .sticky-nav-icons{
@@ -367,5 +367,162 @@ margin-right: 0.7rem;
 @media (max-width: 1000px){
     .hide{
         display: none;
+    }
+}
+
+/* ===== Responsive additions ===== */
+
+.menu-toggle{
+    display: none;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 900;
+}
+
+.overlay.active{
+    display: block;
+}
+
+/* Tablet: shrink cards a bit, keep layout */
+@media (max-width: 900px){
+    .card{
+        width: 160px;
+    }
+}
+
+/* Small tablet / large mobile: collapsible sidebar */
+@media (max-width: 768px){
+    body{
+        overflow: auto;
+    }
+
+    .menu-toggle{
+        display: inline-block;
+    }
+
+    .main{
+        height: auto;
+        min-height: 100vh;
+        flex-direction: column;
+        padding-bottom: 90px;
+    }
+
+    .sidebar{
+        position: fixed;
+        top: 0.5rem;
+        bottom: 0.5rem;
+        left: -110%;
+        width: 80%;
+        max-width: 300px;
+        z-index: 1000;
+        transition: left 0.3s ease;
+        margin-right: 0;
+    }
+
+    .sidebar.active{
+        left: 0.5rem;
+    }
+
+    .main-content{
+        width: 100%;
+        padding: 0 1rem 6rem 1rem;
+        overflow: visible;
+    }
+
+    .cards-container{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card{
+        width: 47%;
+        margin: 0.5rem 0;
+        padding: 0.75rem;
+    }
+
+    .card-info{
+        display: none;
+    }
+
+    .sticky-nav-option .nav-item.hide{
+        display: none;
+    }
+
+    .music-player{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .album{
+        width: 55%;
+        justify-content: flex-start;
+    }
+
+    .album-icon{
+        display: none;
+    }
+
+    .player{
+        width: 100%;
+        order: 3;
+    }
+
+    .controls{
+        width: 45%;
+        justify-content: flex-end;
+    }
+
+    .control-icon,
+    .control-icons{
+        display: none;
+    }
+
+    .vol{
+        display: none;
+    }
+}
+
+/* Phone screens */
+@media (max-width: 480px){
+    .main{
+        padding: 0.35rem;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .box{
+        height: auto;
+        padding: 0.75rem;
+    }
+
+    .picture{
+        height: 2.75rem;
+    }
+
+    .album-title h4{
+        font-size: 0.85rem;
+    }
+
+    .album-title p{
+        font-size: 0.75rem;
+    }
+
+    .pleyer-control-icon{
+        margin-right: 1rem;
+    }
+
+    .player-controls{
+        margin-bottom: 0.25rem;
     }
 }
